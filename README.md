@@ -1,1 +1,2 @@
 # portfolio
+My name is Rohit Kumar and I am from Patna, Bihar. I have completed my B.Tech in Electrical and Electronics Engineering from Kalinga Institute of Industrial Technology Bhubaneswar in 2021. Currently, I am doing a Full Stack Web Developer course at Masai School.
