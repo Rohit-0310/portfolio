@@ -635,7 +635,7 @@ section .title::after {
   height: 80px;
   width: 100%;
 }
-.contact .right form .name {
+.contact .right form .firstname {
   margin-right: 10px;
 }
 .contact .right form .field input,
@@ -806,8 +806,8 @@ footer span a:hover {
   .contact .right form .fields {
     flex-direction: column;
   }
-  .contact .right form .name,
-  .contact .right form .email {
+  .contact .right form .firstname,
+  .contact .right form {
     margin: 0;
   }
   .right form .error-box {
