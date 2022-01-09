@@ -47,7 +47,7 @@ $(document).ready(function(){
         loop: true
     });
     var typed = new Typed(".typing-2", {
-        strings: ["Full Stack Web Developer"],
+        strings: ["Full Stack Web Developer", "MERN Stack Developer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
