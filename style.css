@@ -220,7 +220,7 @@ section .title::after {
 .about {
   display: flex;
   background: url("images/banner_new.jpg") no-repeat center;
-  height: 100vh;
+  /* height: 100vh; */
   color: #fff;
   min-height: 500px;
   background-size: cover;
@@ -304,6 +304,8 @@ section .title::after {
 .teams {
   color: #fff;
   background: #111;
+  
+  
 }
 .project .title::before,
 .teams .title::before {
@@ -383,10 +385,110 @@ section .title::after {
 
 /* skills section styling */
 
+
+
+
+
+
+
+/* ----------------------------- */
+
+
+.skills .skill-content-rk{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.logo{
+    height: 80px;
+}
+
+
+
+.skills .skill-content-rk .skill-card{
+    width: calc(24% - 20px);
+    /* background: #222; */
+    text-align: center;
+    border-radius: 20px;
+    /* padding: 10px 5px; */
+    margin: 1%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.skills .skill-content-rk .skill-card:hover{
+    background: crimson;
+}
+.skills .skill-content-rk .skill-card .box{
+    transition: all 0.3s ease;
+}
+.skills .skill-content-rk .skill-card:hover .box{
+    transform: scale(1.05);
+}
+.skills .skill-content-rk .skill-card i{
+    font-size: 35px;
+    color: crimson;
+    transition: color 0.3s ease;
+}
+.skills .skill-content-rk .skill-card:hover i{
+    color: #fff;
+}
+.skills .skill-content-rk .skill-card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+
+@media (max-width: 1104px) {
+    .skills .skill-content-rk .skill-card {
+        width: calc(30% - 20px);
+        background: #222;
+        text-align: center;
+        /* margin-right: 4%; */
+        cursor: pointer;
+        transition: all 0.3s ease;
+      }
+}
+
+
+@media (max-width: 947px) {
+.skills .skill-content-rk .skill-card {
+    width: calc(30% - 20px);
+    background: #222;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+}
+
+@media (max-width: 690px) {
+  .max-width {
+    padding: 0 23px;
+  }
+  .skills .skill-content-rk .skill-card {
+    width: calc(45% - 20px);
+  }
+}
+
+@media (max-width: 400px) {
+    .max-width {
+        padding: 0 23px;
+      }
+      .skills .skill-content-rk .skill-card {
+        width: calc(95% - 20px);
+      }
+}
+
+
+/* ----------------------------------- */
+
+
 .skills {
   display: flex;
   background: url("images/banner_new_revrese.jpg") no-repeat center;
-  height: 100vh;
+  /* height: 100vh; */
   color: #fff;
   min-height: 500px;
   background-size: cover;
@@ -396,6 +498,8 @@ section .title::after {
 /* .skills .title::after {
   content: "what i know";
 } */
+
+/*
 .skills .skills-content .column {
   width: calc(50% - 30px);
 }
@@ -484,6 +588,9 @@ section .title::after {
     width: 75%;
   }
 
+
+
+  */
 /* teams section styling */
 .teams .title::after {
   content: "who with me";
@@ -551,7 +658,7 @@ section .title::after {
 .contact {
   display: flex;
   background: url("images/banner_new.jpg") no-repeat center;
-  height: 100vh;
+  /* height: 100vh; */
   color: #fff;
   min-height: 500px;
   background-size: cover;
