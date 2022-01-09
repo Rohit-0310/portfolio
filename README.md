@@ -5,7 +5,7 @@ My name is Rohit Kumar and I am from Patna, Bihar. I have completed my B.Tech in
 
 
 
-@media (max-width: 1104px) {
+#@media (max-width: 1104px) {
 
 }
 
