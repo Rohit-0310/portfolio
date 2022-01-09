@@ -295,8 +295,9 @@ section .title::after {
 
 .fade:focus,
 .fade:active {
-  background-color: black;
+  background-color: #093319;
   transition: none;
+  box-shadow: 10px 5px 5px #14642c;
 }
 
 /* project section styling */
@@ -333,7 +334,9 @@ section .title::after {
   transition: all 0.3s ease;
 }
 .project .serv-content .card:hover {
-  background: crimson;
+  background: #111;
+  border-radius: 3%;
+  /* margin: 2%; */
 }
 .project .serv-content .card .box {
   transition: all 0.3s ease;
@@ -430,7 +433,7 @@ section .title::after {
     transition: all 0.3s ease;
 }
 .skills .skill-content-rk .skill-card:hover{
-    background: crimson;
+    background: #222;
 }
 .skills .skill-content-rk .skill-card .box{
     transition: all 0.3s ease;
